@@ -8,7 +8,7 @@ h1{
 .orange-color{
     color: orange;
 }
-section{
+.flexible-content{
     display: flex;
     padding: 2%;
     margin-bottom: 150px;
@@ -17,7 +17,7 @@ section{
     width: 50%;
 }
 section .half-width img{
-    width: 80%;
+    width: 85%;
 }
 .link-btn{
     background-image: linear-gradient(orange, tomato);
@@ -30,6 +30,7 @@ section .half-width img{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    padding-left: 100px;
 }
 .bg-section{
     background: url(images/dream-bg.png);
@@ -38,4 +39,17 @@ section .half-width img{
 }
 .p-right{
     padding-right: 90px;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-item{
+    width: 40%;
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 35px;
+    border-radius: 10px;
 }
